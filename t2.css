@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f2f2f2;
+}
+
+#stopwatch {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#lap-times {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lap-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+}
